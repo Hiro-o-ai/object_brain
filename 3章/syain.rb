@@ -1,8 +1,16 @@
+require_relative 'salary'
+
 class Syain
-  def standup
-    puts '社員はとりあえず起立します'
+  include Salary
+
+  def initialize(kihonkyu)
+    @kihonkyu = kihonkyu
   end
 
-  def salary(kihonkyu)
+  def standup
+    '社員はとりあえず起立します'
   end
+
+  # def salary(kihonkyu)
+  # end
 end

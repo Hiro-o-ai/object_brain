@@ -2,10 +2,14 @@ require_relative './syain.rb'
 
 class Butyou < Syain
   def standup
-    puts '部長ははゆっくりと起立した'
+    '部長はゆっくりと起立した'
   end
 
-  def salary(kihonkyu)
-    kihonkyu * 3
+  def kihon
+    @kihonkyu * 3
   end
+
+  # def salary(kihonkyu)
+  #   kihonkyu * 3
+  # end
 end
