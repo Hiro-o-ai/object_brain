@@ -4,7 +4,7 @@ describe Gyoumu do
   let(:gyoumu) { Gyoumu.new() }
 
   example '社員はとりあえず起立します' do
-    expect(gyoumu.standup).to eq '社員はとりあえず起立します'
+    expect(gyoumu.standup).to eq '社員はとりあえず起立する'
   end
 
   describe TantouGyoumu do
