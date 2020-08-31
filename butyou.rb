@@ -1,3 +1,5 @@
+require_relative './syain.rb'
+
 class Butyou < Syain
   def standup
     puts '部長ははゆっくりと起立した'
